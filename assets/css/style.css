@@ -1,3 +1,6 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
 .app {
     background: #f1f1f1;
     display: grid;
@@ -11,20 +14,21 @@
 }
 
 .header {
-    
+    align-items: center;
+    display: flex;
     grid-area:header;
-
-    
+    padding: 0 2rem;
 }
-.main {
-    
-    grid-area: main;
 
+.main {
+    grid-area: main;
+    padding: 0 2rem;
 }
 
 .footer { 
-    
-    grid-area: footer;
-
-    
+    background:#fdfdfd;
+    color: #333333;
+    padding:1rem;
+    text-align: center;
+    grid-area: footer;    
 }
